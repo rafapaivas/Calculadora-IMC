@@ -1,0 +1,39 @@
+body {
+    background-color: mintcream;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    background-color: dodgerblue;
+    border-radius: 15px 15px 0 0;
+    padding: 2px 0px 20px 30px;
+    color: white;
+}
+
+section {
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border: solid 2px dodgerblue;
+}
+
+.blocos {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    
+}
+
+.colunas {
+    width: 50%;
+    
+}
+
+#resultado {
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
